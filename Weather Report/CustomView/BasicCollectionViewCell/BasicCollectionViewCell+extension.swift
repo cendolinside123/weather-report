@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CellTemplates
 
 extension BasicCollectionViewCell {
     func setValue(menu text: String) {

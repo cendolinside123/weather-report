@@ -10,13 +10,11 @@
 		72807BE627F379ED008C99B2 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72807BE527F379ED008C99B2 /* NetworkResult.swift */; };
 		72807BE827F37A0B008C99B2 /* BootstrapTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72807BE727F37A0B008C99B2 /* BootstrapTableView.swift */; };
 		72807BEA27F37A4B008C99B2 /* UIGuideHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72807BE927F37A4B008C99B2 /* UIGuideHelper.swift */; };
-		72BB3C4327F55B36002E6F5A /* CellTemplate.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB3C4227F55B36002E6F5A /* CellTemplate.xcframework */; };
-		72BB3C4427F55B36002E6F5A /* CellTemplate.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB3C4227F55B36002E6F5A /* CellTemplate.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		72BB3C4727F55F73002E6F5A /* BasicCollectionViewCell+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB3C4627F55F73002E6F5A /* BasicCollectionViewCell+extension.swift */; };
-		72D5E46127F5B84500949DFC /* Loading.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D5E46027F5B84500949DFC /* Loading.xcframework */; };
-		72D5E46227F5B84500949DFC /* Loading.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72D5E46027F5B84500949DFC /* Loading.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		72D5E46527F61CE000949DFC /* ParentContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5E46427F61CE000949DFC /* ParentContentTableViewCell.swift */; };
 		72D5E46727F68A6100949DFC /* ChildContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5E46627F68A6100949DFC /* ChildContentTableViewCell.swift */; };
+		72D5E46C27F69A9600949DFC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5E46B27F69A9600949DFC /* LoadingView.swift */; };
+		72D5E46E27F69AC800949DFC /* BasicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5E46D27F69AC800949DFC /* BasicCollectionViewCell.swift */; };
 		72F39B2027F2FE7500059EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F39B1F27F2FE7500059EE2 /* AppDelegate.swift */; };
 		72F39B2427F2FE7500059EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F39B2327F2FE7500059EE2 /* ViewController.swift */; };
 		72F39B2727F2FE7500059EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F39B2527F2FE7500059EE2 /* Main.storyboard */; };
@@ -66,31 +64,16 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		72F39B8227F371DA00059EE2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				72D5E46227F5B84500949DFC /* Loading.xcframework in Embed Frameworks */,
-				72BB3C4427F55B36002E6F5A /* CellTemplate.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		62476DE91CB1EC2CE19A8221 /* Pods-Weather Report.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Report.release.xcconfig"; path = "Target Support Files/Pods-Weather Report/Pods-Weather Report.release.xcconfig"; sourceTree = "<group>"; };
 		72807BE527F379ED008C99B2 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		72807BE727F37A0B008C99B2 /* BootstrapTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootstrapTableView.swift; sourceTree = "<group>"; };
 		72807BE927F37A4B008C99B2 /* UIGuideHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGuideHelper.swift; sourceTree = "<group>"; };
-		72BB3C4227F55B36002E6F5A /* CellTemplate.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CellTemplate.xcframework; path = ../CellTemplates/release/output/CellTemplate.xcframework; sourceTree = "<group>"; };
 		72BB3C4627F55F73002E6F5A /* BasicCollectionViewCell+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasicCollectionViewCell+extension.swift"; sourceTree = "<group>"; };
-		72D5E46027F5B84500949DFC /* Loading.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Loading.xcframework; path = ../Loading/Products/release/xcarchive/release/Loading.xcframework; sourceTree = "<group>"; };
 		72D5E46427F61CE000949DFC /* ParentContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentContentTableViewCell.swift; sourceTree = "<group>"; };
 		72D5E46627F68A6100949DFC /* ChildContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildContentTableViewCell.swift; sourceTree = "<group>"; };
+		72D5E46B27F69A9600949DFC /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = ../../../../Loading/Loading/CustomView/LoadingView.swift; sourceTree = "<group>"; };
+		72D5E46D27F69AC800949DFC /* BasicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewCell.swift; sourceTree = "<group>"; };
 		72F39B1C27F2FE7500059EE2 /* Weather Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F39B1F27F2FE7500059EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72F39B2327F2FE7500059EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,10 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D5E46127F5B84500949DFC /* Loading.xcframework in Frameworks */,
 				72FBBA8E27F4EDB400563DEB /* CoreLocation.framework in Frameworks */,
 				DC9D82EFD31871B512A2D5C9 /* Pods_Weather_Report.framework in Frameworks */,
-				72BB3C4327F55B36002E6F5A /* CellTemplate.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +149,7 @@
 		72BB3C4527F55F5A002E6F5A /* BasicCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				72D5E46D27F69AC800949DFC /* BasicCollectionViewCell.swift */,
 				72BB3C4627F55F73002E6F5A /* BasicCollectionViewCell+extension.swift */,
 			);
 			path = BasicCollectionViewCell;
@@ -180,6 +162,14 @@
 				72D5E46627F68A6100949DFC /* ChildContentTableViewCell.swift */,
 			);
 			path = ContentTableViewCell;
+			sourceTree = "<group>";
+		};
+		72D5E46827F69A6B00949DFC /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				72D5E46B27F69A9600949DFC /* LoadingView.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		72F39B1327F2FE7500059EE2 = {
@@ -270,6 +260,7 @@
 		72F39B4E27F3538C00059EE2 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				72D5E46827F69A6B00949DFC /* LoadingView */,
 				72D5E46327F61CA900949DFC /* ContentTableViewCell */,
 				72BB3C4527F55F5A002E6F5A /* BasicCollectionViewCell */,
 			);
@@ -387,8 +378,6 @@
 		72F39B7E27F371D900059EE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72D5E46027F5B84500949DFC /* Loading.xcframework */,
-				72BB3C4227F55B36002E6F5A /* CellTemplate.xcframework */,
 				72FBBA8D27F4EDB400563DEB /* CoreLocation.framework */,
 				D5A0982EA16B4B9E89A29DC6 /* Pods_Weather_Report.framework */,
 			);
@@ -415,7 +404,6 @@
 				72F39B1827F2FE7500059EE2 /* Sources */,
 				72F39B1927F2FE7500059EE2 /* Frameworks */,
 				72F39B1A27F2FE7500059EE2 /* Resources */,
-				72F39B8227F371DA00059EE2 /* Embed Frameworks */,
 				25098F16FC29FD4D64D648ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -568,6 +556,7 @@
 				72F39B4427F34DFA00059EE2 /* User+CoreDataProperties.swift in Sources */,
 				72F39B7127F36CE500059EE2 /* WeatherDataProvider.swift in Sources */,
 				72F39B6B27F36AF100059EE2 /* WeatherDataSource.swift in Sources */,
+				72D5E46C27F69A9600949DFC /* LoadingView.swift in Sources */,
 				72F39B7527F36D1100059EE2 /* UserDataProvider.swift in Sources */,
 				72F39B4227F34DFA00059EE2 /* Location+CoreDataProperties.swift in Sources */,
 				72F39B6827F36A9E00059EE2 /* UserDataSource.swift in Sources */,
@@ -584,6 +573,7 @@
 				72F39B7327F36D0200059EE2 /* LocationDataProvider.swift in Sources */,
 				72F39B4327F34DFA00059EE2 /* User+CoreDataClass.swift in Sources */,
 				72BB3C4727F55F73002E6F5A /* BasicCollectionViewCell+extension.swift in Sources */,
+				72D5E46E27F69AC800949DFC /* BasicCollectionViewCell.swift in Sources */,
 				72FBBA9027F4F08B00563DEB /* ListItemControll.swift in Sources */,
 				72F39B6F27F36B9000059EE2 /* UserInfo.swift in Sources */,
 			);

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Loading
 import CoreLocation
 import CellTemplates
 
