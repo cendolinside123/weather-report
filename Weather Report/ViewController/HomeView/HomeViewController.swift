@@ -37,7 +37,6 @@ class HomeViewController: UIViewController {
         tabel.rowHeight = UITableView.automaticDimension
         tabel.estimatedRowHeight = 100
         tabel.register(ParentContentTableViewCell.self, forCellReuseIdentifier: "parentDataCell")
-        tabel.separatorStyle = .singleLineEtched
         return tabel
     }()
     private let loadingView = LoadingView()
@@ -251,6 +250,9 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         if let getData = weatherViewModel?.listData[indexPath.row] {
             cell.setValue(value: getData)
+            cell.preservesSuperviewLayoutMargins = false
+            cell.separatorInset = UIEdgeInsets.zero
+            cell.layoutMargins = UIEdgeInsets.zero
         } else {
             return UITableViewCell()
         }
